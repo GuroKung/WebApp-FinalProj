@@ -30,10 +30,10 @@ Anyway, manual text input and pig execution in server given the properly output 
 ###Suggestion & Solution
 It seems like I forget to use library called ‘body-parser’ , body-parser extracts the entire body portion of an incoming request stream and exposes it on req.body as something easier to interface with, by adding it should make the API working properly.
 
-##Issues2
+###Issues2
 Pig is working properly, but if data is too much it might collapse I/O DataStream
 
-##Suggestion & Solution
+###Suggestion & Solution
 It probably because Pig read through all the files and lines that cause a lot of load. Another group that use Pig also say that they have some problem with memory too.
 
 So, try separating input, use smaller input or change hadoop processing method by change into HBase instead.
