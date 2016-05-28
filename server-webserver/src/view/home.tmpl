@@ -1,0 +1,20 @@
+<div class="container">
+  <h2 style="text-align: center;">Group 8</h2>
+  <img style="display: block; margin: 0 auto;" src="/img/webapp8logo.png">
+  <div ng-controller="TodoListController as todoList">
+    <!-- <form ng-submit="todoList.addTodo()">
+      <input type="text" ng-model="todoList.todoText"  size="30"
+             placeholder="add new todo here">
+      <input class="btn btn-primary" type="submit" value="Add">
+    </form> -->
+    <div class="form-group">
+      <form ng-submit="todoList.submit()">
+      <label>Paragraph:</label>
+      <textarea ng-model="todoList.userInput" class="form-control" rows="10" id="Paragraph"></textarea>
+      <input style="margin-top: 8px"class="btn btn-primary" type="submit" value="Search">
+      </form>
+    </div>
+    <span ng-if="todoList.result.length > 0">Result <br/></span>
+    <span ng-repeat="line in todoList.result">{{line}}<br /></span>
+  </div>
+</div>
