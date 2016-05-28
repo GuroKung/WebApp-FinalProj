@@ -1,4 +1,4 @@
-loadData = LOAD 'example' as (data:chararray);
+loadData = LOAD ‘input’ as (data:chararray);
 loadInput = LOAD 'textInput/textInput.txt' AS (inputs:chararray);
 
 sentences = FOREACH loadData GENERATE FLATTEN(STRSPLIT(data, '\\u007B\\u005F\\u007D')) AS (filename:chararray, sentenceNum:chararray, sentence:chararray);
