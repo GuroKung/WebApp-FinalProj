@@ -15,7 +15,7 @@ See our document https://github.com/GuroKung/WebApp-FinalProj/wiki
 ##Contribution
 | Student | Role | 
 | ---------- |-------| 
-| Jiratchaya | API, hadoop cluster |
+| Jiratchaya | API, hadoop cluster, write report |
 | Vasupol | Front end, load balancer, preprocess file |
 | Nara | Load balancer, preprocess file, pig |
 | Natchanon | Front end |
