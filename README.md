@@ -1,5 +1,9 @@
 # WebApp-FinalProj
 
+## Architecture Overview
+
+![](http://s33.postimg.org/7yf82fjkf/Screen_Shot_2559_05_28_at_11_31_21_AM.png)
+
 See our document https://github.com/GuroKung/WebApp-FinalProj/wiki
 
 ## Members
